@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+    app:
+      image: microsoft/dotnet:2.1-sdk
+      working_dir: /app
+      stdin_open: true
+      tty: true
+      ports:
+        - 80:80
+      volumes:
+        - .:/app
