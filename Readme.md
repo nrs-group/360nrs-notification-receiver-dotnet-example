@@ -7,5 +7,5 @@ docker-compose up
 ```
 
 ```bash
-* ./notificationTest.sh
+./notificationTest.sh
 ```
