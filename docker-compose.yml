@@ -4,8 +4,7 @@ services:
     app:
       image: microsoft/dotnet:2.1-sdk
       working_dir: /app
-      stdin_open: true
-      tty: true
+      command: "dotnet watch run"
       ports:
         - 80:80
       volumes:
