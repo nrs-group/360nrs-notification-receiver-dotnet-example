@@ -2,5 +2,10 @@
 
 ## Execution instructions
 
-* docker-compose up
+```bash
+docker-compose up
+```
+
+```bash
 * ./notificationTest.sh
+```
